@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-animation {
+  animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* CSS for pull-up animation */
+@keyframes pullUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.pull-up {
+  animation: pullUp 0.5s ease forwards;
+}
+
+
+/**{
+  background: rgb(1, 2, 35);
+}*/

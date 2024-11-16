@@ -1,0 +1,127 @@
+.container {
+  display: flex;               
+  flex-wrap: wrap;             
+  justify-content: center;
+  align-items: center;         
+  gap: 10px;   
+  width: 100%;                 
+  padding: 10px;              
+}
+
+.imgcontainer {
+  width: 50%; 
+  position: relative;
+  text-align: center;
+  color: rgb(207, 58, 58);
+  border-radius: 30px;
+}
+
+.imgcontainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #123c044e; 
+  z-index: 1;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Londrina Outline";
+  color: white;
+  font-size: 100px;
+  z-index: 2;
+}
+
+.imgcontainer img {
+  height: auto;
+  width: 100%; 
+  transition: opacity 1s ease-in-out; 
+ 
+}
+
+/* Text styling */
+.text {
+  color: #0F9D58;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  z-index: 1;
+  left: 10%;
+  top: 10%;
+}
+
+/* ----------------------------------------- */
+/* Styling for the team member cards */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 50px;
+}
+
+.coremembers {
+  width: 200px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Stacks content vertically */
+  align-items: center;
+  position: relative;
+  min-height: 320px; /* Ensures enough space for text */
+}
+
+ /*.coremembers:hover {
+  transform: scale(1.05); Slight hover effect 
+}*/
+
+.coremembers img {
+  width: 200px;
+  height: 200px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures images don't stretch */
+  border-radius: 50%;
+  border-bottom: 2px solid #b25656;
+}
+
+/* Ensures the text and icons are visible */
+.coremembers h3, 
+.coremembers p {
+  color: #040404; /* White text for visibility */
+  text-align: center;
+  margin: 10px 0;
+  word-wrap: break-word; /* Makes sure long names/roles break into lines */
+  max-width: 100%;
+  font-size: 16px;
+}
+
+.coremembers h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.coremembers p {
+  font-size: 14px;
+}
+
+/* Optional icon styling */
+.icon {
+  width: 30px;
+  height: 30px;
+  background-color: #30c815; /* White icon background */
+  border-radius: 50%; /* Makes it a circle */
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
