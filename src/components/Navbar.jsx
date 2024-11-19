@@ -31,7 +31,7 @@ function Navbar() {
               Events
             </Link>
             <Link
-              to="/contact"
+              to="#contact"
               className="text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact
@@ -89,14 +89,14 @@ function Navbar() {
               About
             </Link>
             <Link
-              to="/services"
+              to="/events"
               className="block text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-base font-medium"
               onClick={() => setIsOpen(false)}
             >
-              Services
+              Events
             </Link>
             <Link
-              to="/contact"
+              to="#contact"
               className="block text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-base font-medium"
               onClick={() => setIsOpen(false)}
             >

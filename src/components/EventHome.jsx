@@ -29,9 +29,9 @@ const EventHome = () => {
     const navigate = useNavigate();
     
   return (
-    <div className="container mx-auto text-center">
+    <div className="container mx-auto text-center pt-10">
       <h2 className="text-3xl font-bold mb-8 text-gray-600 font-grotesk">
-        Past Events
+        Recent Events
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {events.map((event) => (
@@ -60,11 +60,12 @@ const EventHome = () => {
       </div>
       <button
         onClick={() => navigate("/events")}
-        className="relative inline-flex items-center px-10 py-5 bg-orange-500 text-white font-semibold rounded-full shadow-lg hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400 transition duration-300"
+        className="relative inline-flex items-center px-10 py-5 mt-10 mb-10 bg-blue-500 text-white font-semibold rounded-full shadow-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400 transition duration-300"
       >
-        <span>Upcoming Event!!</span>
+        <span>More Info</span>
         <span className="absolute inset-y-0 right-0 flex items-center pr-3"></span>
       </button>
+      
     </div>
   );
 };

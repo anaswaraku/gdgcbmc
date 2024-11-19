@@ -1,4 +1,4 @@
-import lead from './LEAD.jpg'
+import lead from './Lead.jpg'
 
 export const leads={
     lead

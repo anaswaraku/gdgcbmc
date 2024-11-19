@@ -1,7 +1,9 @@
 import { assets } from "../assets/assets";
 import Join from "./Join";
 import EventHome from "./EventHome";
-
+import Footer from "./Footer";
+import TeamPage from "./TeamPage";
+import JoinUs from "./JoinUs";
 const About = () => {
   return (
     <>
@@ -45,7 +47,11 @@ const About = () => {
         </div>
       </section>
       <Join />
+    
       <EventHome />
+      <TeamPage/><JoinUs/>
+      <Footer/>
+      
     </>
   );
 };

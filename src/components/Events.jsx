@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { assets } from "../assets/assets";
-import TeamPage from "./ImageSlideshow"
+import ImageSlideshow from "./ImageSlideshow copy"
 const events = [
   {
     id: 1,
@@ -47,7 +47,12 @@ const PastEvents = () => {
 
   return (
     <>
-      <TeamPage />
+      <ImageSlideshow />
+      <h1 className="items-center text-xl text-center m-10">
+        "We make events that inspire, educate, and connect students with the
+        latest in technology."
+        <span className="font-bold text-4xl text-gray-600"><br></br>Recent Events</span>
+      </h1>
       <div className="container mx-auto text-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {events.map((event) => (
