@@ -123,7 +123,7 @@ const TeamPage = () => {
       },
     },
     {
-      name: "Unknown",
+      name: "MATHEW C S",
       position: "Design Lead",
       image: "",
       socialLinks: {

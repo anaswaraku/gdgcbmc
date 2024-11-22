@@ -44,7 +44,7 @@ function Join() {
           />
         </div>
       </section>
-      <Writtings /> <Logos />
+      <Writtings />
     </>
   );
 }
