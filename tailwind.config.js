@@ -10,10 +10,11 @@ export default {
       fontFamily: {
         quicksand: ["Quicksand", "sans-serif"],
         grotesk: ["Space Grotesk", "sans-serif"],
-        lilita: ["Lilita One", "sans - serif"],
+        ccccc: ["Lilita One", "sans - serif"],
         londrinaoutline: ["Londrina Outline", "sans-serif"],
         Agdasima: ["Teko", "sans-serif"],
         Cormant: ["Cormorant Garamond", "serif"],
+        cursiv: ["Cedarville Cursive", "cursive"],
       },
       keyframes: {
         borderColorChange: {
@@ -22,12 +23,15 @@ export default {
           "50%": { borderColor: "#F4B400" }, // Yellow
           "75%": { borderColor: "#DB4437" }, // Red
           "100%": { borderColor: "#4285F4" }, // Back to Blue
+        }, 'pull-up': {
+          '0%': { transform: 'translateY(100%)', opacity: 0 },
+          '100%': { transform: 'translateY(0)', opacity: 1 },
         },
       },
       animation: {
         "border-color-change": "borderColorChange 2s linear infinite",
-      },
-    },
+      'pull-up': 'pull-up 0.5s ease-out forwards',},
+    }, 
   },
   plugins: [],
 };

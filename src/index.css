@@ -88,3 +88,12 @@
     transform: translateX(-50%);
   }
 }
+/* CSS for styling headings */
+.head {
+  font-size: 2.5rem;   
+  color: #333333;
+  font-weight: bold; 
+  text-align: center;
+  margin: 20px 0;     
+  letter-spacing: 1px;     
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
-
+import PullUpText from "./PullUpText";
 const events = [
   {
     id: 1,
@@ -30,8 +30,8 @@ const EventHome = () => {
     
   return (
     <div className="container mx-auto text-center pt-10">
-      <h2 className="text-3xl font-bold mb-8 text-gray-600 font-grotesk">
-        Recent Events
+      <h2 className="head">
+        <PullUpText text="Recent Events" />
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {events.map((event) => (
@@ -65,7 +65,6 @@ const EventHome = () => {
         <span>More Info</span>
         <span className="absolute inset-y-0 right-0 flex items-center pr-3"></span>
       </button>
-      
     </div>
   );
 };
