@@ -1,5 +1,7 @@
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
-import { leads } from "../assets/Core team/leads";
+import { leads
+  
+ } from "../assets/leads";
 import PullUpText from './PullUpText'
 const TeamPage = () => {
   const images = [
@@ -145,7 +147,7 @@ const TeamPage = () => {
     <>
       <div className="bg-gray-100 min-h-screen py-12 px-4">
         <h2 className="text-4xl text-center text-gray-800 head ">
-         <PullUpText text=" Meet Our Team" />
+          <PullUpText text=" Meet the Core Team" />
         </h2>
         <h1 className="text-center text-3xl text-gray-800 mb-10">
           We Make it Happen
@@ -153,8 +155,8 @@ const TeamPage = () => {
 
         <div className="flex justify-center mb-16">
           <div
-            className="bg-white rounded-lg shadow-lg p-10 text-center border-t-4"
-            style={{ borderColor: "#4285F4" }} // Google Blue for the featured lead border
+            className="bg-white rounded-lg shadow-lg p-8 text-center border-t-4"
+            style={{ borderColor: "#FBBC05" }} // Google Blue for the featured lead border
           >
             <img
               src={lead.image}
@@ -173,7 +175,7 @@ const TeamPage = () => {
               >
                 <FaLinkedin
                   className="text-blue-700 hover:text-blue-500"
-                  size={28}
+                  size={24}
                 />
               </a>
               <a
@@ -183,7 +185,7 @@ const TeamPage = () => {
               >
                 <FaTwitter
                   className="text-blue-400 hover:text-blue-300"
-                  size={28}
+                  size={24}
                 />
               </a>
               <a
@@ -193,7 +195,7 @@ const TeamPage = () => {
               >
                 <FaGithub
                   className="text-gray-800 hover:text-gray-600"
-                  size={28}
+                  size={24}
                 />
               </a>
             </div>

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { assets } from "../assets/assets";
-import { leads } from "../assets/Core team/leads";
 
 const ImageSlideShow = () => {
   const images = [
