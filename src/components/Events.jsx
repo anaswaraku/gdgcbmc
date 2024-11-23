@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { assets } from "../assets/assets";
-import ImageSlideshow from "./ImageSlideshow copy"
+import ImageSlideshow from "./ImageSlideshow"
 const events = [
   {
     id: 1,
