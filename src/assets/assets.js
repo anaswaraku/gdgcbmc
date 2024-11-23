@@ -1,26 +1,33 @@
 import gdsclogo from "./logo.png";
-import ascend from'./ascendevent.png';
-import coretem from "./coreteam.jpg";
-import digitalmarketing from "./DigitalMarketing.jpg"
-import flutter from "./flutterlogo.png";
-import git from "./git.jpg"
-import nova from "./nova.jpeg"
-import zlat1 from "./zlat1.jpeg"
-import zlat2 from "./zlat2.jpeg"
-import cloud from './cloud.png'
-import firebase from './firebase.png'
-import AD from './Android.png'
-import flutterevent from './flutter2.jpeg'
-import Bytestart from './Bytestart.jpg'
-import Zerolatency from './Zerolatency.jpg'
-import Unity from './UnityWorkshop.jpg'
-import about from './about.png'
-import illus1 from './illus1.png'
-import illus2 from "./illus2.png";
-import illus3 from "./illus3.png";
-import illus4 from "./illus4.png";
-import zoo from './ZoologyAI.jpg'
-import Unitylogo from './Unity.png'
+
+import ascend from'./Glimpses/ascendevent.png';
+import coretem from "./Glimpses/coreteam.jpg";
+import git from "./Glimpses/git.jpg";
+import nova from "./Glimpses/nova.jpeg";
+import zlat1 from "./Glimpses/zlat1.jpeg";
+import zlat2 from "./Glimpses/zlat2.jpeg";
+import flutterevent from "./Glimpses/flutter2.jpeg";
+import about from "./Glimpses/coreteam.jpg";
+
+
+import flutter from "./Logos/flutterlogo.png";
+import cloud from './logos/cloud.png'
+import firebase from './logos/firebase.png'
+import AD from './logos/Android.png'
+import Unitylogo from "./logos/Unity.png";
+
+import Unity from "./posters/UnityWorkshop.jpg";
+import digitalmarketing from "./Posters/DigitalMarketing.jpg";
+import Bytestart from './posters/Bytestart.jpg'
+import Zerolatency from "./posters/Zerolatency.jpg";
+import zoo from "./posters/ZoologyAI.jpg";
+
+import illus1 from './Illustrations/illus1.png'
+import illus2 from "./Illustrations/illus2.png";
+import illus3 from "./Illustrations/illus3.png";
+import illus4 from "./Illustrations/illus4.png";
+
+
 export const assets = {
   gdsclogo, 
   coretem,
