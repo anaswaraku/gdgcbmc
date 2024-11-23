@@ -1,14 +1,14 @@
-import lead from '../../public/Lead.jpg'
-import Operations from '../../public/Operations.jpg'
-import Tech from '../../public/Tech.jpg'
-import Developer from "../../public/Developer.jpg";
-import ContentLead from '../../public/Content.jpg'
-import ContentCo from '../../public/Contentco.jpg'
-import Event from '../../public/Event.jpg'
-import PR from '../../public/PR.jpg'
-import PRCoLead from '../../public/PRCo.jpg'
-import Finance from '../../public/Finance.jpg'
-import DesignLead from '../../public/Design.jpg'
+import lead from '/public/Core team/Lead.jpg'
+import Operations from '/public/Core team/Operations.jpg'
+import Tech from '/public/Core team/Tech.jpg'
+import Developer from "/public/Core team/Developer.jpg";
+import ContentLead from '/public/Core team/Content.jpg'
+import ContentCo from '/public/Core team/Contentco.jpg'
+import Event from '/public/Core team/Event.jpg'
+import PR from '/public/Core team/PR.jpg'
+import PRCoLead from '/public/Core team/PRCo.jpg'
+import Finance from '/public/Core team/Finance.jpg'
+import DesignLead from '/public/Core team/Design.jpg'
 
 
 export const leads = {

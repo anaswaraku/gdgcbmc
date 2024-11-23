@@ -1,31 +1,31 @@
 import gdsclogo from "./logo.png";
 
-import ascend from'../../public/ascendevent.png';
-import coretem from "../../public/coreteam.jpg";
-import git from "../../public/git.jpg";
-import nova from "../../public/nova.jpeg";
-import zlat1 from "../../public/zlat1.jpeg";
-import zlat2 from "../../public/zlat2.jpeg";
-import flutterevent from "../../public/flutter2.jpeg";
-import about from "../../public/coreteam.jpg";
+import ascend from "/Glimpses/ascendevent.png";
+import coretem from "/Glimpses/coreteam.jpg";
+import git from "/Glimpses/git.jpg";
+import nova from "/Glimpses/nova.jpeg";
+import zlat1 from "/Glimpses/zlat1.jpeg";
+import zlat2 from "/Glimpses/zlat2.jpeg";
+import flutterevent from "/Glimpses/flutter2.jpeg";
+import about from "/Glimpses/coreteam.jpg";
 
 
-import flutter from "../../public/flutterlogo.png";
-import cloud from "../../public/cloud.png";
-import firebase from "../../public/firebase.png";
-import AD from "../../public/Android.png";
-import Unitylogo from "../../public/Unity.png";
+import flutter from "/logos/flutterlogo.png";
+import cloud from "/logos/cloud.png";
+import firebase from "/logos/firebase.png";
+import AD from "/logos/Android.png";
+import Unitylogo from "/logos/Unity.png";
 
-import Unity from "../../public/UnityWorkshop.jpg";
-import digitalmarketing from "../../public/DigitalMarketing.jpg";
-import Bytestart from "../../public/Bytestart.jpg";
-import Zerolatency from "../../public/Zerolatency.jpg";
-import zoo from "../../public/ZoologyAI.jpg";
+import Unity from "/posters/UnityWorkshop.jpg";
+import digitalmarketing from "/posters/DigitalMarketing.jpg";
+import Bytestart from "/posters/Bytestart.jpg";
+import Zerolatency from "/posters/Zerolatency.jpg";
+import zoo from "/posters/ZoologyAI.jpg";
 
-import illus1 from "../../public/illus1.png";
-import illus2 from "../../public/illus2.png";
-import illus3 from "../../public/illus3.png";
-import illus4 from "../../public/illus4.png";
+import illus1 from "/Illustrations/illus1.png";
+import illus2 from "/Illustrations/illus2.png";
+import illus3 from "/Illustrations/illus3.png";
+import illus4 from "/Illustrations/illus4.png";
 
 
 export const assets = {
