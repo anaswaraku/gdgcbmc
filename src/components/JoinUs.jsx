@@ -1,24 +1,23 @@
-import React from "react";
-import { assets } from "../assets/assets";
-
 function Events() {
   return (
     <>
-      <div className="flex justify-between items-center flex-wrap p-12 m-12 bg-gradient-to-r from-yellow-400/70 to-green-600/60 rounded-lg max-w-max mx-auto">
-        <div className="text-center flex-1">
-          <div className="text-4xl font-bold mb-5 font-[Playwrite FR Moderne] text-white">
-            Stay Updated with us
-          </div>
-          <h1 className="text-xl text-white mb-7"></h1>
+      <section className="py-16 bg-gray-100">
+        <div className="container mx-auto text-center">
+          <p className="mt-4 text-lg text-gray-600">
+            We’re always looking for new members to join our community! Whether
+            you're just starting out or you're a seasoned developer, GDG offers
+            a space for everyone to connect, learn, and grow.
+          </p>
           <a
-            className="bg-blue-500 text-white py-3 px-8 rounded-full text-lg cursor-pointer hover:bg-blue-600 transition"
             href="https://gdg.community.dev/accounts/login/?next=/gdg-on-campus-bharata-mata-college-thrikkakara-india/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block bg-blue-600 text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-blue-700"
           >
-            Join Us
+           Join Us
           </a>
         </div>
-       
-      </div>
+      </section>
     </>
   );
 }
