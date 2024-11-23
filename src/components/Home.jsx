@@ -11,7 +11,7 @@ const Home = () => {
     <>
       {" "}
       <section id="">
-        <div className="flex flex-row h-screen gap-8 justify-center items-center">
+        <div className="flex flex-row gap-8 justify-center items-center">
           <img
             src={assets.illus1}
             alt="Left Illustration"

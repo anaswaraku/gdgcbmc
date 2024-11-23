@@ -1,12 +1,12 @@
 import React from "react";
-import { FaTwitter, FaInstagramSquare , FaGithub, FaLinkedin, } from "react-icons/fa";
+import { FaInstagramSquare , FaGithub, FaLinkedin, } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-10">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-         
           <div>
             <h2 className="text-xl font-bold mb-4">
               Google Developer Group on Campus
@@ -14,7 +14,6 @@ const Footer = () => {
                 <p>Bharata Mata College, Thrikkakara</p>
               </span>
             </h2>
-           
           </div>
 
           {/* Quick Links */}
@@ -27,9 +26,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#events" className="text-gray-400 hover:text-white">
-                  Events
-                </a>
+                 <Link
+              to="/events"
+              className="text-gray-400 hover:text-white"
+            >
+              Events
+            </Link>
               </li>
             </ul>
           </div>
@@ -38,17 +40,12 @@ const Footer = () => {
           <div>
             <h2 className="text-xl font-bold mb-4">Connect with Us</h2>
             <div className="flex space-x-4 mb-4">
+              
               <a
-                href="https://twitter.com/"
+                href="https://www.instagram.com/gdgc.bmc?igsh=bWN6anBvcDVxdjRw"
                 className="text-gray-400 hover:text-white"
               >
-                <FaTwitter size={20} />
-              </a>
-              <a
-                href="https://instagram.com/"
-                className="text-gray-400 hover:text-white"
-              >
-                <FaInstagramSquare  size={20} />
+                <FaInstagramSquare size={20} />
               </a>
               <a
                 href="https://github.com/"
