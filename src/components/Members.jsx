@@ -4,15 +4,15 @@ import PullUpText from './PullUpText'
 const TeamPage = () => {
   const images = [
     leads.lead, // 0-lead
-    "", // 1-Operations
-    "", // 2-Tech
+    leads.Operations, // 1-Operations
+    leads.Tech, // 2-Tech
     leads.Developer, // 3-Developer
     leads.ContentLead, // 4-Content
-    "", // 5-Content-Co
-    "", // 6-Event
-    "", // 7-PR
+    leads.ContentCo, // 5-Content-Co
+    leads.Event, // 6-Event
+    leads.PR, // 7-PR
     leads.PRCoLead, // 8-PR Co
-    "", // 9-Finance
+    leads.Finance, // 9-Finance
     leads.DesignLead, // 10-Design
     "", // 11-DesignCo
   ];
