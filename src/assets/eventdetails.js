@@ -25,7 +25,7 @@ export const eventdetails = [
     description:
       "A fun-filled event focusing on the latest advancements in networking and zero latency technology.",
     poster: assets.ZeroLatencyPoster,
-    speaker: "Ms. Jane Smith, Network Specialist at ABC Corp",
+    speaker: "",
     glimpses: [assets.ZeroGlimpse1, assets.ZeroGlimpse2],
   },
   {
