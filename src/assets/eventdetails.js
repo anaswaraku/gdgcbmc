@@ -3,7 +3,7 @@ import { assets } from "./assets";
 
 export const eventdetails = [
   {
-    id: 13,
+    id: 14,
     imageSrc: assets.Bytestart,
     title: "BYTESTART-ORIENTATION PROGRAMME",
     date: "2 Aug, 2024",
@@ -11,7 +11,8 @@ export const eventdetails = [
       "An engaging orientation program that helps students kickstart their journey with technology and networking.",
     poster: assets.Bytestart,
     speaker: "VijayaKrishnan S R, GDG Campus Lead",
-    glimpses: [assets.Bytestart,
+    glimpses: [
+      assets.Bytestart,
       "/Glimpses/Bytestart/3.jpg",
       "/Glimpses/Bytestart/2.jpg",
       "/Glimpses/Bytestart/1.jpg",
@@ -26,7 +27,17 @@ export const eventdetails = [
       "A fun-filled event focusing on the latest advancements in networking and zero latency technology.",
     poster: assets.ZeroLatencyPoster,
     speaker: "",
-    glimpses: [assets.ZeroGlimpse1, assets.ZeroGlimpse2],
+    glimpses: [
+      "/Glimpses/ZeroLatency/4.jpg",
+      "/Glimpses/ZeroLatency/2.jpg",
+      "/Glimpses/ZeroLatency/5.jpg",
+      "/Glimpses/ZeroLatency/3.jpg",
+      "/Glimpses/ZeroLatency/7.jpg",
+      "/Glimpses/ZeroLatency/8.jpg",
+      "/Glimpses/ZeroLatency/9.jpg",
+      "/Glimpses/ZeroLatency/10.jpg",
+      "/Glimpses/ZeroLatency/11.jpg",
+    ],
   },
   {
     id: 1,
