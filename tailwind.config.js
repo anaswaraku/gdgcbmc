@@ -8,13 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        quicksand: ["Quicksand", "sans-serif"],
-        grotesk: ["Space Grotesk", "sans-serif"],
-        ccccc: ["Lilita One", "sans - serif"],
-        londrinaoutline: ["Londrina Outline", "sans-serif"],
-        Agdasima: ["Teko", "sans-serif"],
-        Cormant: ["Cormorant Garamond", "serif"],
-        cursiv: ["Cedarville Cursive", "cursive"],
+        londrinaoutline: ["Londrina Outline", "sans-serif"],//for infinite scroll 
       },
       keyframes: {
         borderColorChange: {

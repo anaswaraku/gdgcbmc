@@ -26,7 +26,7 @@ const Home = () => {
               <span className="text-[#0F9D58] ">G</span>ROUPS ON
               <br />
               <span className="text-[#F4B400] ">C</span>AMPUS
-              <span className="block text-gray-600 text-4xl font-normal font-grotesk p-5 animate-fadeInUp"></span>
+              <span className="block text-gray-600 text-4xl font-normal p-5 animate-fadeInUp"></span>
             </span>
             BHARATA MATA COLLEGE, THRIKKAKARA
           </h1>
