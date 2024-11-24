@@ -16,7 +16,7 @@ const TeamPage = () => {
     leads.PRCoLead, // 8-PR Co
     leads.Finance, // 9-Finance
     leads.DesignLead, // 10-Design
-    "", // 11-DesignCo
+    leads.DesignCoLead, // 11-DesignCo
   ];
 
   const lead = {

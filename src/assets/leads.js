@@ -9,7 +9,7 @@ import PR from '/Coreteam/PR.jpg'
 import PRCoLead from '/Coreteam/PRCo.jpg'
 import Finance from '/Coreteam/Finance.jpg'
 import DesignLead from '/Coreteam/Design.jpg'
-
+import DesignCoLead from "/Coreteam/DesignCo.jpg";
 
 export const leads = {
   lead,
@@ -23,4 +23,5 @@ export const leads = {
   PRCoLead,
   Finance,
   DesignLead,
+  DesignCoLead,
 };
