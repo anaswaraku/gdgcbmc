@@ -15,7 +15,11 @@ function Navbar() {
               to="/"
               className="text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
             >
-              Home
+              <img
+                src={assets.gdsclogo}
+                alt="GDSC Logo"
+                className="h-8 w-auto"
+              />
             </Link>
             <a
               href="#about"
@@ -23,19 +27,21 @@ function Navbar() {
             >
               About
             </a>
-          
+
             <Link
               to="/events"
               className="text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
             >
               Events
             </Link>
-            <Link
-              to="#contact"
-              className="text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Contact
-            </Link>
+            <div className="flex items-center space-x-2">
+              <a
+                href="mailto:gdsc.bmc@gmail.com"
+                className="text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Contact Us
+              </a>
+            </div>
           </div>
           {/* Mobile Menu Button */}
           <div className="flex md:hidden">
@@ -95,13 +101,14 @@ function Navbar() {
             >
               Events
             </Link>
-            <Link
-              to="#contact"
-              className="block text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-base font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              Contact
-            </Link>
+            <div className="flex items-center space-x-2">
+              <a
+                href="mailto:gdsc.bmc@gmail.com"
+                className="text-gray-800 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Contact Us
+              </a>
+            </div>
           </div>
         </div>
       )}

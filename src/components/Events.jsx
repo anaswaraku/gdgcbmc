@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ImageSlideshow from "./ImageSlideshow";
 import { events } from "../assets/events";
+import PullUpText from "./PullUpText";
 
 const PastEvents = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -32,7 +33,7 @@ const PastEvents = () => {
           "We make events that inspire, educate, and connect students with the
           latest in technology."
           <span className="block font-bold text-4xl text-gray-700 mt-5">
-            Recent Events
+            <PullUpText text="Recent Events"/>
           </span>
         </h1>
 
@@ -46,7 +47,7 @@ const PastEvents = () => {
                 <img
                   src={event.imageSrc}
                   alt={event.title}
-                  className="w-full h-[250px] object-cover rounded-t-lg"
+                  className="w-full h-[250px] object-cover rounded-t-lg border-2 border-gray-400"
                 />
 
                 <div className="p-4">
