@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import TeamPage from "./TeamPage";
 import JoinUs from "./JoinUs";
 import Writtings from './Writtings'
-
+import Faq from './Faq'
 const Home = () => {
   return (
     <>
@@ -54,6 +54,7 @@ const Home = () => {
       <EventHome />
       <TeamPage />
       <JoinUs />
+      <Faq/>
       <Footer />
     </>
   );
