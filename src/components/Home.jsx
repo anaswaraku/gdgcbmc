@@ -1,7 +1,6 @@
 import { assets } from "../assets/assets";
 import About from "./About";
 import EventHome from "./EventHome";
-import Footer from "./Footer";
 import TeamPage from "./TeamPage";
 import JoinUs from "./JoinUs";
 import Writtings from './Writtings'
@@ -55,7 +54,6 @@ const Home = () => {
       <TeamPage />
       <JoinUs />
       <Faq/>
-      <Footer />
     </>
   );
 };

@@ -5,9 +5,7 @@ const ImageSlideShow = () => {
   const images = [
     assets.nova,
     assets.ascend,
-    assets.git,
     assets.nova,
-    assets.zlat1,
     assets.flutterevent,
     assets.ascend,
   ];

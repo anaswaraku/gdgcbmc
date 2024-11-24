@@ -21,6 +21,7 @@ import digitalmarketing from "/posters/DigitalMarketing.jpg";
 import Bytestart from "/posters/Bytestart.jpg";
 import Zerolatency from "/posters/Zerolatency.jpg";
 import zoo from "/posters/ZoologyAI.jpg";
+import Helloflutter from "/posters/HelloFlutter.jpg"
 
 import illus1 from "/Illustrations/illus1.png";
 import illus2 from "/Illustrations/illus2.png";
@@ -39,12 +40,14 @@ export const assets = {
   git,
   nova,
   zlat1,
+  Helloflutter,
   zlat2,
   cloud,
   firebase,
   AD,Unitylogo,
   flutterevent,ascend,
   about,
+  Helloflutter,
   illus1,
   illus2,
   illus3,
